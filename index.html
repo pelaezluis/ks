@@ -39,6 +39,12 @@
     .contact-section form .input-field .prefix.active { color: #e94560; }
     .contact-section form .btn-large { position: relative; z-index: 1; }
     footer.page-footer, footer .footer-copyright { background: #000 !important; }
+    footer .row > div:first-child { margin-bottom: 1.5rem; }
+    footer .footer-social { text-align: center; }
+    @media (min-width: 601px) {
+      footer .row > div:first-child { margin-bottom: 0; }
+      footer .footer-social { text-align: right; }
+    }
     footer .social-icon { display: inline-block; background: #fff; border-radius: 8px; padding: 6px; transition: transform 0.3s; }
     footer .social-icon:hover { transform: scale(1.1); }
     footer .social-icon img { display: block; height: 28px; width: 28px; }
@@ -286,7 +292,7 @@
           <h5 class="white-text">KS Music & Sound</h5>
           <p class="grey-text text-lighten-4">Logística profesional para eventos musicales, sonido y DJ.</p>
         </div>
-        <div class="col s12 m6 right-align">
+        <div class="col s12 m6 footer-social">
           <h5 class="white-text">Síguenos</h5>
           <a href="https://www.instagram.com/ks.eventosyproduccion_/" target="_blank" class="social-icon">
             <img src="assets/img/instagram.png" alt="Instagram">
